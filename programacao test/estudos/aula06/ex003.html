@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programa03</title>
+    <style>
+        body{
+            background-color: aquamarine;
+            
+
+        }
+        h1 {
+            color:black;
+            font: normal 15pt arial ;
+        }
+        p {
+            color:brown;
+            font: large 15pt italic;
+            
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var nome = window.prompt(`Qual o seu nome?`)
+        var n1 = Number.parseFloat(window.prompt('Digite um número:'))//Number.parseInt transforma uma string em um number
+        var n2 = Number(window.prompt('Digite outro número'))//number eh uma forma mais abrangente. O mesmo vale para "string()"
+        var s = n1 + n2
+        document.write(`<p>É um prazer em te conhcer ${nome.toUpperCase()}<p/><br/>`)
+        document.write(`<h1>A soma de ${n1} e ${n2} é igual a ${s}<h1/><br/>`)//lembra de usar a crase e o $ + chaves.
+        
+   </script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+    background-color: gray;
+}
+
+div#foto{
+    background-color: red;
+    margin: auto;
+    width: 479px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 50%;
+}
+
+header{
+    text-align: center;
+}
+
+button#botaoinfo{
+    position: relative;
+    text-align: center;
+    padding: 1%;
+    border-radius: 5%;
+
+}
+
+div#textoinfo{
+    position:absolute;
+    
+}

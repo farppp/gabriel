@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>programa 06</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        div#area {
+            font: normal 15pt italic;
+            background:green;
+            color: white;
+            width: 250px;
+            height: 250px;
+            line-height: 250px;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div id="area" onclick="clicar()" onmouseenter='entrar()' onmouseleave="sair()">
+    Interaja...
+</div>   
+       
+
+    <script>
+        var a = document.getElementById('area')
+
+        function clicar() {
+            a.innerText = 'manda o pix'
+            a.style.background = 'red'
+        }
+        function entrar() {
+            a.innerText = 'clica logo!!!'
+        }
+        function sair() {
+            a.innerText = 'Interaja...'
+            a.style.background = 'green'
+        }
+    </script>
+</body>
+</html>

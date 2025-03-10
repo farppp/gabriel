@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gringo</title>
+</head>
+<body>
+    <h1>Teste de nacionalidade</h1>
+    <p>coloque a sua nacionalidade aqui:</p>
+    <input type="text" id="local">
+    <br/><input type="button" value="verificar nacionalidade" id="butnac" onclick="clicar()">
+    <div id="res"></div>
+
+    <script>
+        var naci = document.getElementById('local')
+        var resu = document.getElementById('res')
+        function clicar(){
+        if (naci.value == 'Brasil'){ //necessario do .value(demorei para pegar esse 'value')
+            resu.innerHTML = `Você é <strong>Brasileiro</strong>`
+        }
+
+        else {
+            resu.innerHTML = `Você é Gringo`
+        }
+        }
+    </script>    
+</body>
+</html>

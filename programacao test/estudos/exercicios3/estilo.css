@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+section{
+    background: rgb(2, 248, 236);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    height: 240px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px black;
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+}

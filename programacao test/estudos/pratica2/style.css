@@ -1,0 +1,39 @@
+#rectangle-1 * {
+  box-sizing: border-box;
+}
+#rectangle-1 {
+  background: radial-gradient(
+    closest-side,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(221, 221, 221, 1) 22.499999403953552%,
+    rgba(181, 180, 180, 1) 61.500000953674316%,
+    rgba(160, 160, 160, 1) 89.49999809265137%,
+    rgba(155, 155, 155, 1) 100%);
+
+    display: flex;
+    border-radius: 26px;
+    height: 600px;
+    position: absolute;
+    display: flex;
+    transform-origin: right;
+    transform: rotate(-180deg) scale(1, 1);
+    aspect-ratio: 860/1101;
+    margin: 200px;    
+}
+
+
+#organizador {
+    color: #020202;
+    text-align: center;
+    font-family: "InknutAntiqua-Regular", sans-serif;
+    font-size: 37px;
+    line-height: 40px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin:150px;
+}
